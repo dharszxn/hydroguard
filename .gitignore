@@ -7,6 +7,15 @@ dist/
 dist-ssr/
 build/
 */dist/
+*/build/
+
+# Environment, secrets, and credentials
+.env
+.env.local
+.env.*.local
+*.env
+*.pem
+*.key
 
 # Python cache & virtual environments
 __pycache__/
